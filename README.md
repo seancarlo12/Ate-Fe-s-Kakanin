@@ -1,7 +1,7 @@
 <h1>🍡 Ate Fes Kakanin</h1>
 
 <p>
-A modern, responsive <strong>React + Vite</strong> portfolio project showcasing a fictional Filipino
+A modern, responsive <strong>React + Vite</strong> project showcasing a fictional Filipino
 kakanin business. The website highlights traditional Filipino delicacies through a clean,
 contemporary interface while demonstrating modern front-end development practices.
 </p>
