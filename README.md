@@ -36,25 +36,6 @@ contemporary interface while demonstrating modern front-end development practice
   <li>CSS3</li>
 </ul>
 
-
-<h2>🚀 Getting Started</h2>
-
-<h3>Clone the repository</h3>
-
-<pre><code>git clone https://github.com/yourusername/ate-fes-kakanin.git</code></pre>
-
-<h3>Navigate into the project</h3>
-
-<pre><code>cd ate-fes-kakanin</code></pre>
-
-<h3>Install dependencies</h3>
-
-<pre><code>npm install</code></pre>
-
-<h3>Start the development server</h3>
-
-<pre><code>npm run dev</code></pre>
-
 <p>
 This project is intended for educational purposes.
 </p>
