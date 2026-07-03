@@ -1,8 +1,15 @@
 const SOCIAL_LINKS = [
-  { label: 'Facebook', href: 'https://facebook.com', icon: 'facebook' },
-  { label: 'Instagram', href: 'https://instagram.com', icon: 'instagram' },
+  {
+    label: "Facebook",
+    href: "https://web.facebook.com/esperanza.tolentino.543",
+    icon: "facebook",
+  },
+  {
+    label: "Phone",
+    href: "tel:+639389791867",
+    icon: "phone",
+  },
 ];
-
 function SocialIcon({ type }) {
   if (type === 'facebook') {
     return (
@@ -13,14 +20,15 @@ function SocialIcon({ type }) {
         />
       </svg>
     );
+    
   }
   return (
-    <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true">
-      <path
-        fill="currentColor"
-        d="M12 2c2.72 0 3.06.01 4.12.06 1.06.05 1.79.22 2.43.47.66.26 1.22.6 1.77 1.15.55.55.9 1.11 1.15 1.77.25.64.42 1.37.47 2.43.05 1.06.06 1.4.06 4.12s-.01 3.06-.06 4.12c-.05 1.06-.22 1.79-.47 2.43a4.9 4.9 0 0 1-1.15 1.77 4.9 4.9 0 0 1-1.77 1.15c-.64.25-1.37.42-2.43.47-1.06.05-1.4.06-4.12.06s-3.06-.01-4.12-.06c-1.06-.05-1.79-.22-2.43-.47a4.9 4.9 0 0 1-1.77-1.15 4.9 4.9 0 0 1-1.15-1.77c-.25-.64-.42-1.37-.47-2.43C2.01 15.06 2 14.72 2 12s.01-3.06.06-4.12c.05-1.06.22-1.79.47-2.43.26-.66.6-1.22 1.15-1.77A4.9 4.9 0 0 1 5.45.53c.64-.25 1.37-.42 2.43-.47C8.94 2.01 9.28 2 12 2Zm0 5a5 5 0 1 0 0 10 5 5 0 0 0 0-10Zm0 8.25a3.25 3.25 0 1 1 0-6.5 3.25 3.25 0 0 1 0 6.5ZM18.4 6.6a1.17 1.17 0 1 0-2.34 0 1.17 1.17 0 0 0 2.34 0Z"
-      />
-    </svg>
+        <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true">
+          <path
+            fill="currentColor"
+            d="M6.62 10.79a15.46 15.46 0 006.59 6.59l2.2-2.2a1 1 0 011.02-.24c1.12.37 2.33.56 3.57.56a1 1 0 011 1V20a1 1 0 01-1 1C10.3 21 3 13.7 3 4a1 1 0 011-1h3.5a1 1 0 011 1c0 1.24.19 2.45.56 3.57a1 1 0 01-.24 1.02l-2.2 2.2z"
+          />
+        </svg>
   );
 }
 
@@ -33,7 +41,7 @@ function Footer() {
             <img src="src\assets/ICON.svg" alt="Ate Fes Kakanin Logo" />
           </span>
           <div>
-            <p className="footer__name">Ate Fes Kakanin</p>
+            <p className="footer__name">Ate Fe's Kakanin</p>
             <p className="footer__tagline">Traditional Filipino Kakanin, Made with Love</p>
           </div>
         </div>
@@ -60,7 +68,7 @@ function Footer() {
       </div>
 
       <p className="footer__copyright">
-        &copy; {new Date().getFullYear()} Ate Fes Kakanin. All rights reserved.
+        &copy; {new Date().getFullYear()} Ate Fe's Kakanin. All rights reserved.
       </p>
     </footer>
   );

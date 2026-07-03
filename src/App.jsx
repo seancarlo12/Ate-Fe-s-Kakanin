@@ -19,6 +19,7 @@ const PRODUCTS = [
         image:
             "https://scontent.fcrk4-1.fna.fbcdn.net/v/t1.6435-9/118152306_191999315617496_240518967618305424_n.jpg?stp=dst-jpg_tt6&cstp=mx960x719&ctp=s960x719&_nc_cat=104&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeF8NUIH1E6Y9_Z9RmGDpWsma47ro5A3ToprjuujkDdOiv3x4ymPBZ3y0GiyN4wpdybA_OTEMf6mvnYaqzjzc1ZR&_nc_ohc=lnZjqQA1D3wQ7kNvwH5-VFf&_nc_oc=AdrUEA2cEBITXo_trSCmnHEJWeAElChDTrJDivd4pORjlwgKawHbLlMd3nRo6ije3Ao&_nc_zt=23&_nc_ht=scontent.fcrk4-1.fna&_nc_gid=yj8xUpairREX3lJk3h2fvw&_nc_ss=7b2a8&oh=00_AQDa8X5jwGY_-Jd40_mIHvfE-xFXnJmXQUbQT-PsrodZ7g&oe=6A6E290A",
         description: "Soft steamed rice cakes with a delicate, pillowy bite.",
+        tags: ["Best Seller", "Steamed", "Classic"],
     },
     {
         name: "Kutsinta",
@@ -26,6 +27,7 @@ const PRODUCTS = [
             "https://scontent.fcrk2-3.fna.fbcdn.net/v/t39.30808-6/492360268_1217521493711885_8511440910237840196_n.jpg?stp=cp6_dst-jpg_tt6&cstp=mx2048x1536&ctp=s2048x1536&_nc_cat=110&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeEDI44oleB515YvptmSCiYk9iCCECl0XeP2IIIQKXRd4zTt5WSHIp0idE1iY5aFR52T3Y2FV7J7UN4itqfZfnim&_nc_ohc=z-1Va1w3_twQ7kNvwEwi4y0&_nc_oc=AdpKyKmrEGAQ7X8lfhtNV9iAp_MMpg4Q6UND0fl201Azo1eVsz1EscPpqh7F8Bi_JXU&_nc_zt=23&_nc_ht=scontent.fcrk2-3.fna&_nc_gid=Cuu9mSBrHdqAFX-U6TtZFw&_nc_ss=7b2a8&oh=00_AQBIQU5u8JlXYFXffBp32zZjwg7f0nufbwZJ77osv06aaQ&oe=6A4C5636",
         description:
             "Chewy brown rice cakes glazed and served with fresh grated coconut.",
+        tags: ["Chewy", "Coconut"],
     },
     {
         name: "Sapin-Sapin",
@@ -33,6 +35,7 @@ const PRODUCTS = [
             "https://scontent.fcrk2-1.fna.fbcdn.net/v/t39.30808-6/488355206_4038862509706045_4272303713698006342_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x2021&ctp=s2048x2021&_nc_cat=102&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeE2IFz8AXZOosGxsc5bMuiTWpoLzg_AollamgvOD8CiWR9K5MzlBJLu8msX_Wpnx4HQLt0nLI8DHUjW30Rtn7-V&_nc_ohc=ha_8pigo7NoQ7kNvwE__Nej&_nc_oc=Adr55EZruJziCPH7VDGTh9xd05gfziP_BfywNGM9AifxC8iZaTDy8Ey4U7JmLeI5ptk&_nc_zt=23&_nc_ht=scontent.fcrk2-1.fna&_nc_gid=jJCJLXvBBk_sNgxnSqMw7Q&_nc_ss=7b2a8&oh=00_AQB1R21Pe1qy166keA46MODq_FZP_CjW6VVkEV8Wj3OybA&oe=6A4C88DE",
         description:
             "Colorful layered glutinous rice cake with a rich coconut finish.",
+        tags: ["Colorful", "Fiesta Favorite"],
     },
     {
         name: "Biko",
@@ -40,12 +43,14 @@ const PRODUCTS = [
             "https://tastebudsschoolblog.wordpress.com/wp-content/uploads/2020/05/fb_img_15899729820476112.jpg",
         description:
             "Sticky rice simmered in coconut milk and dark muscovado sugar.",
+        tags: ["Sweet", "Traditional"],
     },
     {
         name: "Palitaw",
         image:
             "https://www.lovefilipinofood.com/wp-content/uploads/2026/03/shredded-coconut-sesame-palitaw-easy.jpg",
         description: "Flattened rice cakes rolled in coconut and toasted sesame.",
+        tags: ["Sesame", "Light Snack"],
     },
     {
         name: "Cassava Cake",
@@ -53,18 +58,21 @@ const PRODUCTS = [
             "https://www.tasteofhome.com/wp-content/uploads/2025/04/Cassava-Cake_EXPS_TOHcom25_278348_MD_P2_03_27_7b.jpg?fit=750%2C750",
         description:
             "Baked cassava custard topped with a golden coconut-macapuno layer.",
+        tags: ["Baked", "Creamy", "Premium"],
     },
     {
         name: "Suman",
         image: "https://hicaps.com.ph/wp-content/uploads/2023/10/suman-recipe.jpg",
         description:
             "Glutinous rice steamed in banana leaves for a fragrant aroma.",
+        tags: ["Traditional"],
     },
     {
         name: "Bibingka",
         image:
             "https://scontent.fcrk4-1.fna.fbcdn.net/v/t39.30808-6/488069000_4038862193039410_7404488757201088320_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x2034&ctp=s2048x2034&_nc_cat=106&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeGwCp_9zj0la-K9F-ve9GxpJtlUvQfm6bom2VS9B-bpuotafdMxciKUr5WjNQwge_N8om5kHPSThBYxFPFpjrl5&_nc_ohc=_G8NYKyuBrsQ7kNvwE9NrFh&_nc_oc=Adqf0toNrVRxrjbZfdmN4n4Mll6gGf07uvl2yoY1YcVTAdVECIpmF58PkdTK7aLZmDM&_nc_zt=23&_nc_ht=scontent.fcrk4-1.fna&_nc_gid=NaST51wyTi-mduKpPoRNGQ&_nc_ss=7b2a8&oh=00_AQBD1Xdx3op5d_Dxmw0ZhK4BFmlJKAuENJ0wUsADn6o9Fg&oe=6A4C6E52",
         description: "Baked rice cake topped with salted egg, cheese, and coconut.",
+        tags: ["Holiday Favorite"],
     },
 ];
 
@@ -141,7 +149,7 @@ const GALLERY_IMAGES = [
     {
         label: "Kakanin gift box",
         size: "large",
-        src: "https://jrfumart.com/image/images/65cf13e15cc85.jpg?p=large",
+        src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjxXuTioGdSZxcvnhBw1i1Tz2RPoC0PkEyyk4RQhjX7IMr_ohJ7jB9hNJf&s=10",
     },
 ];
 
@@ -295,7 +303,7 @@ function App() {
                                             made the traditional way. Worth every peso."
                                         </blockquote>
                                         <br /><br />
-                                            <cite className="about__testimonial-author">— Loyal Customers</cite>
+                                        <cite className="about__testimonial-author">— Loyal Customers</cite>
                                     </li>
                                 </ul>
                             </div>
@@ -423,14 +431,6 @@ function App() {
                                     rel="noopener noreferrer"
                                 >
                                     Message us on Facebook
-                                </a>
-                                <a
-                                    href="https://maps.google.com"
-                                    className="btn btn--outline"
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                >
-                                    View on Google Maps
                                 </a>
                             </div>
                         </div>
