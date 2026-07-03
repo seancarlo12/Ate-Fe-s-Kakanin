@@ -1,0 +1,115 @@
+/* ==========================================================================
+    Design Tokens — Ate Fes Kakanin
+    Palette: Deep Pandan Green (dominant) + Warm Kakanin Gold (accent)
+   ========================================================================== */
+
+:root {
+    /* Primary — Deep Pandan Green */
+    --pandan-900: #163420;
+    --pandan-800: #1e4a2a;
+    --pandan-700: #2e6b3e;
+    --pandan-600: #3a7d4a;
+    --pandan-500: #4d9660;
+    --pandan-tint: #e9f1ea;
+    --pandan-tint-strong: #dbe9dd;
+
+    /* Secondary — Warm Kakanin Gold */
+    --gold-700: #b8842e;
+    --gold-600: #d9a441;
+    --gold-400: #e6bd6b;
+    --gold-tint: #f8ecd4;
+
+    /* Neutrals */
+    --cream: #faf5e9;
+    --cream-deep: #f2ead6;
+    --ink: #1c2a1e;
+    --ink-soft: #45524a;
+    --white: #ffffff;
+
+    /* Typography */
+    --font-display: 'Fraunces', Georgia, serif;
+    --font-body: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+
+    /* Layout */
+    --container-width: 1200px;
+    --radius-md: 16px;
+    --radius-lg: 28px;
+    --radius-pill: 999px;
+    --shadow-soft: 0 12px 32px rgba(22, 52, 32, 0.12);
+    --shadow-lift: 0 20px 40px rgba(22, 52, 32, 0.2);
+
+    color-scheme: light;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: var(--font-body);
+    background-color: var(--cream);
+    color: var(--ink);
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: var(--font-display);
+    color: var(--pandan-900);
+    line-height: 1.15;
+    font-weight: 600;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+button {
+    font-family: var(--font-body);
+    cursor: pointer;
+    border: none;
+}
+
+ul {
+    list-style: none;
+}
+
+/* Respect reduced motion preference across the whole site */
+@media (prefers-reduced-motion: reduce) {
+    html {
+        scroll-behavior: auto;
+    }
+
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0.001ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.001ms !important;
+        scroll-behavior: auto !important;
+    }
+}
+
+/* Visible keyboard focus */
+a:focus-visible,
+button:focus-visible {
+    outline: 3px solid var(--gold-600);
+    outline-offset: 3px;
+    border-radius: 4px;
+}
