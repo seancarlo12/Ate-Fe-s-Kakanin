@@ -27,7 +27,7 @@ function Navbar() {
                 <a href="#home" className="navbar__brand" onClick={handleLinkClick}>
                     {/* Replace with Ate Fe's Kakanin official logo. */}
                     <span className="navbar__logo-placeholder" aria-hidden="true">
-                        <img src="https://res.cloudinary.com/k0n4rwiu/image/upload/v1783105886/ICON_hjapn8.svg" alt="Ate Fe's Kakanin Logo" />
+                        <img src="https://res.cloudinary.com/k0n4rwiu/image/upload/v1783192636/ICON_r7lj0q.svg" alt="Ate Fe's Kakanin Logo" />
                     </span>
                     <span className="navbar__brand-name">Ate Fe's Kakanin</span>
                 </a>

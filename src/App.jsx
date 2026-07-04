@@ -15,19 +15,19 @@ import "./App.css";
 
 const PRODUCTS = [
     {
-        name: "Puto",
+        name: "Bibingkang Kanin",
         image:
-            "https://scontent.fcrk4-1.fna.fbcdn.net/v/t1.6435-9/118152306_191999315617496_240518967618305424_n.jpg?stp=dst-jpg_tt6&cstp=mx960x719&ctp=s960x719&_nc_cat=104&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeF8NUIH1E6Y9_Z9RmGDpWsma47ro5A3ToprjuujkDdOiv3x4ymPBZ3y0GiyN4wpdybA_OTEMf6mvnYaqzjzc1ZR&_nc_ohc=lnZjqQA1D3wQ7kNvwH5-VFf&_nc_oc=AdrUEA2cEBITXo_trSCmnHEJWeAElChDTrJDivd4pORjlwgKawHbLlMd3nRo6ije3Ao&_nc_zt=23&_nc_ht=scontent.fcrk4-1.fna&_nc_gid=yj8xUpairREX3lJk3h2fvw&_nc_ss=7b2a8&oh=00_AQDa8X5jwGY_-Jd40_mIHvfE-xFXnJmXQUbQT-PsrodZ7g&oe=6A6E290A",
-        description: "Soft steamed rice cakes with a delicate, pillowy bite.",
-        tags: ["Best Seller", "Steamed", "Classic"],
+            "https://scontent.fcrk4-1.fna.fbcdn.net/v/t39.30808-6/488069000_4038862193039410_7404488757201088320_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x2034&ctp=s2048x2034&_nc_cat=106&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeGwCp_9zj0la-K9F-ve9GxpJtlUvQfm6bom2VS9B-bpuotafdMxciKUr5WjNQwge_N8om5kHPSThBYxFPFpjrl5&_nc_ohc=_G8NYKyuBrsQ7kNvwE9NrFh&_nc_oc=Adqf0toNrVRxrjbZfdmN4n4Mll6gGf07uvl2yoY1YcVTAdVECIpmF58PkdTK7aLZmDM&_nc_zt=23&_nc_ht=scontent.fcrk4-1.fna&_nc_gid=NaST51wyTi-mduKpPoRNGQ&_nc_ss=7b2a8&oh=00_AQBD1Xdx3op5d_Dxmw0ZhK4BFmlJKAuENJ0wUsADn6o9Fg&oe=6A4C6E52",
+        description: "Traditional baked rice cake with a soft, chewy texture.",
+        tags: ["Holiday Favorite"],
     },
     {
-        name: "Kutsinta",
+        name: "Ube Biko Yema",
         image:
-            "https://scontent.fcrk2-3.fna.fbcdn.net/v/t39.30808-6/492360268_1217521493711885_8511440910237840196_n.jpg?stp=cp6_dst-jpg_tt6&cstp=mx2048x1536&ctp=s2048x1536&_nc_cat=110&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeEDI44oleB515YvptmSCiYk9iCCECl0XeP2IIIQKXRd4zTt5WSHIp0idE1iY5aFR52T3Y2FV7J7UN4itqfZfnim&_nc_ohc=z-1Va1w3_twQ7kNvwEwi4y0&_nc_oc=AdpKyKmrEGAQ7X8lfhtNV9iAp_MMpg4Q6UND0fl201Azo1eVsz1EscPpqh7F8Bi_JXU&_nc_zt=23&_nc_ht=scontent.fcrk2-3.fna&_nc_gid=Cuu9mSBrHdqAFX-U6TtZFw&_nc_ss=7b2a8&oh=00_AQBIQU5u8JlXYFXffBp32zZjwg7f0nufbwZJ77osv06aaQ&oe=6A4C5636",
+            "https://scontent.fcrk4-1.fna.fbcdn.net/v/t39.30808-6/489306747_4041012689491027_1307521356344398262_n.jpg?stp=dst-jpg_tt6&cstp=mx2043x2048&ctp=s2043x2048&_nc_cat=108&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeG92GVYO2oLyUGUnuo65Bz_MkiVPjwqijQySJU-PCqKNBv09bsMXZiyX5QPhycGHD63EBpiXXL7nU3JtjLU6IWm&_nc_ohc=Pv8O2FBCr-0Q7kNvwFQXI8N&_nc_oc=AdoxiUBxVHTTw1kUA_iA5t0nJ02Toxw1_w73U4ouZuRCpetA8z3ezkT8woy3DQV893Q&_nc_zt=23&_nc_ht=scontent.fcrk4-1.fna&_nc_gid=4t1FWcfDA7fI-xJSWGWaaA&_nc_ss=7b2a8&oh=00_AQC-Bt6etkiXqKe_gXt2pxKqGf2oSiwBfjwsT1fCaTgQCw&oe=6A4F3C2E",
         description:
-            "Chewy brown rice cakes glazed and served with fresh grated coconut.",
-        tags: ["Chewy", "Coconut"],
+            "Chewy ube sticky rice topped with rich, creamy yema.",
+        tags: ["Ube", "Yema", "Creamy"],
     },
     {
         name: "Sapin-Sapin",
@@ -53,26 +53,27 @@ const PRODUCTS = [
         tags: ["Sesame", "Light Snack"],
     },
     {
-        name: "Cassava Cake",
+        name: "Kutsinta",
         image:
-            "https://www.tasteofhome.com/wp-content/uploads/2025/04/Cassava-Cake_EXPS_TOHcom25_278348_MD_P2_03_27_7b.jpg?fit=750%2C750",
+            "https://scontent.fcrk2-3.fna.fbcdn.net/v/t39.30808-6/492360268_1217521493711885_8511440910237840196_n.jpg?stp=cp6_dst-jpg_tt6&cstp=mx2048x1536&ctp=s2048x1536&_nc_cat=110&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeEDI44oleB515YvptmSCiYk9iCCECl0XeP2IIIQKXRd4zTt5WSHIp0idE1iY5aFR52T3Y2FV7J7UN4itqfZfnim&_nc_ohc=z-1Va1w3_twQ7kNvwEwi4y0&_nc_oc=AdpKyKmrEGAQ7X8lfhtNV9iAp_MMpg4Q6UND0fl201Azo1eVsz1EscPpqh7F8Bi_JXU&_nc_zt=23&_nc_ht=scontent.fcrk2-3.fna&_nc_gid=Cuu9mSBrHdqAFX-U6TtZFw&_nc_ss=7b2a8&oh=00_AQBIQU5u8JlXYFXffBp32zZjwg7f0nufbwZJ77osv06aaQ&oe=6A4C5636",
         description:
-            "Baked cassava custard topped with a golden coconut-macapuno layer.",
-        tags: ["Baked", "Creamy", "Premium"],
+            "Chewy brown rice cakes glazed and served with fresh grated coconut.",
+        tags: ["Chewy", "Coconut"],
     },
     {
-        name: "Suman",
-        image: "https://hicaps.com.ph/wp-content/uploads/2023/10/suman-recipe.jpg",
-        description:
-            "Glutinous rice steamed in banana leaves for a fragrant aroma.",
-        tags: ["Traditional"],
+        name: "Putong Puti",
+        image:
+            "https://scontent.fcrk4-1.fna.fbcdn.net/v/t1.6435-9/118152306_191999315617496_240518967618305424_n.jpg?stp=dst-jpg_tt6&cstp=mx960x719&ctp=s960x719&_nc_cat=104&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeF8NUIH1E6Y9_Z9RmGDpWsma47ro5A3ToprjuujkDdOiv3x4ymPBZ3y0GiyN4wpdybA_OTEMf6mvnYaqzjzc1ZR&_nc_ohc=lnZjqQA1D3wQ7kNvwH5-VFf&_nc_oc=AdrUEA2cEBITXo_trSCmnHEJWeAElChDTrJDivd4pORjlwgKawHbLlMd3nRo6ije3Ao&_nc_zt=23&_nc_ht=scontent.fcrk4-1.fna&_nc_gid=yj8xUpairREX3lJk3h2fvw&_nc_ss=7b2a8&oh=00_AQDa8X5jwGY_-Jd40_mIHvfE-xFXnJmXQUbQT-PsrodZ7g&oe=6A6E290A",
+        description: "Soft steamed rice cakes with a delicate, pillowy bite.",
+        tags: ["Best Seller", "Steamed", "Classic"],
     },
     {
-        name: "Bibingka",
+        name: "Combilao",
         image:
-            "https://scontent.fcrk4-1.fna.fbcdn.net/v/t39.30808-6/488069000_4038862193039410_7404488757201088320_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x2034&ctp=s2048x2034&_nc_cat=106&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeGwCp_9zj0la-K9F-ve9GxpJtlUvQfm6bom2VS9B-bpuotafdMxciKUr5WjNQwge_N8om5kHPSThBYxFPFpjrl5&_nc_ohc=_G8NYKyuBrsQ7kNvwE9NrFh&_nc_oc=Adqf0toNrVRxrjbZfdmN4n4Mll6gGf07uvl2yoY1YcVTAdVECIpmF58PkdTK7aLZmDM&_nc_zt=23&_nc_ht=scontent.fcrk4-1.fna&_nc_gid=NaST51wyTi-mduKpPoRNGQ&_nc_ss=7b2a8&oh=00_AQBD1Xdx3op5d_Dxmw0ZhK4BFmlJKAuENJ0wUsADn6o9Fg&oe=6A4C6E52",
-        description: "Baked rice cake topped with salted egg, cheese, and coconut.",
-        tags: ["Holiday Favorite"],
+            "https://scontent.fcrk2-4.fna.fbcdn.net/v/t39.30808-6/502523624_4097485693843726_8321725940645247160_n.jpg?stp=dst-jpg_tt6&cstp=mx720x1367&ctp=s720x1367&_nc_cat=101&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeFUFtkZkc8UVKXpAkmQ-nyChV_OFhj4TEGFX84WGPhMQRnMGK_mXX7RIGAw7J9BHFXZ2NMQmeotWDm5ZiYkAFXH&_nc_ohc=8SDmi4Tir_oQ7kNvwERBBa-&_nc_oc=AdqtDHx9BxtRkS_Fsrp-gTPh07zA55H2ydhRvmpWR11aPLVC363JNobi115IgR8kvuk&_nc_zt=23&_nc_ht=scontent.fcrk2-4.fna&_nc_gid=0AZE0j4MQDzvDY0JyPlLOA&_nc_ss=7b2a8&oh=00_AQDdsdzsqEaDpgNdVpsQIOAPPu5JjmVr3lJFd2yVtJmebA&oe=6A4F406C",
+        description:
+            "Mix and match your favorite kakanin in one bilao.",
+        tags: ["Mix & Match", "Custom"],
     },
 ];
 
@@ -132,9 +133,9 @@ const GALLERY_IMAGES = [
         src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCO1zVxaPn_Mjr17jgW54dn_kMZhuxohiKvRjbI2C1oQoONBPK1bPmeoU&s=10",
     },
     {
-        label: "Banana-leaf wrapped suman",
+        label: "Sapin-Sapin / Biko Combilao",
         size: "medium",
-        src: "https://greedy-panda.com/wp-content/uploads/2022/09/Suman-malagkit-1600x1067.jpg.webp",
+        src: "https://scontent.fcrk2-2.fna.fbcdn.net/v/t39.30808-6/487126235_4030135523912077_5097410989904547097_n.jpg?stp=dst-jpg_tt6&cstp=mx1965x2048&ctp=s1965x2048&_nc_cat=103&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeGf77VVegs-gq29-lNrFMD-O-jpPn_0HqE76Ok-f_QeoTsZV72v4qsF0IREE-PDBTZTSlJW0doPE3QO0AWvqDw8&_nc_ohc=MXJKGbenkxAQ7kNvwEV28XE&_nc_oc=AdrQf8UPPJPD-CCLgDALGrxE6xZXqwGnfaCRwAH_jSXucdL65OCtLT54HxwjbxUTwxE&_nc_zt=23&_nc_ht=scontent.fcrk2-2.fna&_nc_gid=2Fu32DORlyufBpm4-S1Bew&_nc_ss=7b2a8&oh=00_AQA5fYv9ho5nYXmoF1qNBzZFN1B3tUYwUZGGlFplOBYQvQ&oe=6A4F2319",
     },
     {
         label: "Bibingka on clay pot",
@@ -220,9 +221,7 @@ function App() {
                                 <span className="hero__heading-accent">Made with Love</span>
                             </h1>
                             <p className="hero__text">
-                                Handcrafted rice cakes and delicacies, steamed and baked the way
-                                Lola used to make them — fresh, authentic, and perfect for every
-                                fiesta, gathering, or quiet afternoon craving.
+                                Handcrafted rice cakes and delicacies made fresh daily using traditional recipes—perfect for every fiesta, gathering, or quiet afternoon craving.
                             </p>
                             <div className="hero__actions">
                                 <button className="btn btn--primary" onClick={scrollToProducts}>
@@ -258,7 +257,7 @@ function App() {
                         <SectionTitle
                             eyebrow="Our Kakanin"
                             title="Featured Kakanin"
-                            description="Every piece is steamed, baked, or rolled fresh — the same recipes Ate Fe\'s has trusted for years."
+                            description="Every piece is steamed, baked, or rolled fresh — the same recipes Ate Fe has trusted for years."
                         />
                         <div className="products__grid">
                             {PRODUCTS.map((product, index) => (
@@ -286,8 +285,7 @@ function App() {
                                 <ul className="about__testimonials">
                                     <li className="about__testimonial">
                                         <blockquote>
-                                            "Tastes exactly like my lola's. You can tell it's
-                                            made with real love."
+                                            "Tastes just like homemade. You can tell it's made with real love"
                                             <br />
                                         </blockquote>
                                     </li>

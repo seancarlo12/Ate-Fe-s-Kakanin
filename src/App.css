@@ -274,29 +274,33 @@
 
 .hero__bilao-center {
     position: absolute;
-    inset: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    width: 80%;          /* adjust this */
+    aspect-ratio: 1;
+
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
-    text-align: center;
-    gap: 6px;
-    color: var(--pandan-800);
-    font-weight: 600;
 }
 
+
 .hero__bilao-emoji {
-    font-size: 3.4rem;
-    position: relative;
+    width: 100%;
+    height: 100%;
 }
 
 .hero__bilao-emoji img {
-    border-radius: 50%;
-    height: 400px;
+    width: 100%;
+    height: 100%;
+    display: block;
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    object-fit: cover;
+    object-position: center;
+
+    border-radius: 50%;
 }
 
 .hero__coconut {
@@ -922,6 +926,10 @@
     .hero__content {
         text-align: center;
     }
+    .hero__text{
+        margin-left: auto;
+        margin-right: auto;
+    }
 
     .hero__actions {
         justify-content: center;
@@ -950,7 +958,13 @@
     }
 
     .about__list li::before {
-        display: none;
+        /* display: none; */
+        margin-left: -20px;
+    }
+    
+.about__text {
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .section-title--left {
@@ -970,6 +984,9 @@
         max-width: 480px;
         margin-left: auto;
         margin-right: auto;
+    }
+    .contact__visual {
+        display: none;
     }
 }
 
@@ -1026,6 +1043,9 @@
         grid-column: span 2;
         grid-row: span 1;
     }
+    .contact__visual {
+        display: none;
+    }
 }
 
 @media (max-width: 480px) {
@@ -1043,5 +1063,14 @@
     .gallery,
     .contact {
         padding: 64px 0;
+    }
+
+    .contact__details li {
+        flex-direction: column;
+        gap: 6px;
+    }
+
+    .contact__label {
+        min-width: 0;
     }
 }

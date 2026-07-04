@@ -38,7 +38,7 @@ function Footer() {
       <div className="container footer__inner">
         <div className="footer__brand">
           <span className="navbar__logo-placeholder" aria-hidden="true">
-            <img src="https://res.cloudinary.com/k0n4rwiu/image/upload/v1783105886/ICON_hjapn8.svg" alt="Ate Fes Kakanin Logo" />
+            <img src="https://res.cloudinary.com/k0n4rwiu/image/upload/v1783192636/ICON_r7lj0q.svg" alt="Ate Fes Kakanin Logo" />
           </span>
           <div>
             <p className="footer__name">Ate Fe's Kakanin</p>
