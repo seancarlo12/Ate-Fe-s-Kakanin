@@ -65,7 +65,7 @@ const PRODUCTS = [
         image:
             "https://scontent.fcrk4-1.fna.fbcdn.net/v/t1.6435-9/118152306_191999315617496_240518967618305424_n.jpg?stp=dst-jpg_tt6&cstp=mx960x719&ctp=s960x719&_nc_cat=104&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeF8NUIH1E6Y9_Z9RmGDpWsma47ro5A3ToprjuujkDdOiv3x4ymPBZ3y0GiyN4wpdybA_OTEMf6mvnYaqzjzc1ZR&_nc_ohc=lnZjqQA1D3wQ7kNvwH5-VFf&_nc_oc=AdrUEA2cEBITXo_trSCmnHEJWeAElChDTrJDivd4pORjlwgKawHbLlMd3nRo6ije3Ao&_nc_zt=23&_nc_ht=scontent.fcrk4-1.fna&_nc_gid=yj8xUpairREX3lJk3h2fvw&_nc_ss=7b2a8&oh=00_AQDa8X5jwGY_-Jd40_mIHvfE-xFXnJmXQUbQT-PsrodZ7g&oe=6A6E290A",
         description: "Soft steamed rice cakes with a delicate, pillowy bite.",
-        tags: ["Best Seller", "Steamed", "Classic"],
+        tags: ["Steamed", "Classic"],
     },
     {
         name: "Combilao",
